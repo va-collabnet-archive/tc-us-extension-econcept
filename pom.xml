@@ -15,7 +15,7 @@
 	<version>20130301-loader-1.0</version>
 
 	<properties>
-		<sourceData.version>20130301</sourceData.version>
+		<sourceData.version>20130901</sourceData.version>
 		<org.ihtsdo.wb-toolkit.version>2.32-trek-no-jini-va-1.5</org.ihtsdo.wb-toolkit.version>
 		<data.relativeInputDir>/RF2Release/Full/</data.relativeInputDir>
 		<import.path.uuid>520892e2-05e7-5e1f-bae8-5de5dbc89d04</import.path.uuid> <!-- "US Extension Path" -->
