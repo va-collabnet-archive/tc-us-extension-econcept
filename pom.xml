@@ -12,7 +12,7 @@
 	<name>us-extension-econcept</name>
 
 	<!-- this should be set to ${sourceData.version}-loader-[version] but that doesn't appease the maven gods that know best.... -->
-	<version>20130301-loader-1.0</version>
+	<version>20130901-loader-1.0</version>
 
 	<properties>
 		<sourceData.version>20130901</sourceData.version>
