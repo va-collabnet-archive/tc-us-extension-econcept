@@ -12,11 +12,11 @@
 	<name>us-extension-econcept</name>
 
 	<!-- this should be set to ${sourceData.version}-loader-[version] but that doesn't appease the maven gods that know best.... -->
-	<version>20130901-loader-1.0</version>
+	<version>20140301-loader-1.1</version>
 
 	<properties>
-		<sourceData.version>20130901</sourceData.version>
-		<org.ihtsdo.wb-toolkit.version>2.32-trek-no-jini-va-1.5</org.ihtsdo.wb-toolkit.version>
+		<sourceData.version>20140301</sourceData.version>
+		<org.ihtsdo.wb-toolkit.version>2.32-trek-no-jini-va-1.11</org.ihtsdo.wb-toolkit.version>
 		<data.relativeInputDir>/RF2Release/Full/</data.relativeInputDir>
 		<import.path.uuid>520892e2-05e7-5e1f-bae8-5de5dbc89d04</import.path.uuid> <!-- "US Extension Path" -->
 		<import.module.uuid>bf291637-8f18-38a3-8cc9-fc28927d68ad</import.module.uuid> <!-- US National Library of Medicine maintained module (core metadata concept) -->
@@ -71,7 +71,7 @@
 						</goals>
 						<configuration>
 							<targetSubDir>generated-resources/data</targetSubDir>
-							<effectiveDate>2012-07-31 00:00:00</effectiveDate>
+							<effectiveDate>2014-01-31 00:00:00</effectiveDate>
 							<rf2Dirs>
 								<rf2Dir>
 									<directoryName>${data.relativeInputDir}/Terminology</directoryName>
