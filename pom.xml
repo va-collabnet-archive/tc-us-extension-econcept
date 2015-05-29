@@ -16,7 +16,7 @@
 
 	<properties>
 		<sourceData.version>20140901</sourceData.version>
-		<org.ihtsdo.wb-toolkit.version>2.32-trek-no-jini-va-1.25</org.ihtsdo.wb-toolkit.version>
+		<org.ihtsdo.wb-toolkit.version>2.32-trek-no-jini-va-1.26</org.ihtsdo.wb-toolkit.version>
 		<data.relativeInputDir>/RF2Release/Full/</data.relativeInputDir>
 		<import.path.uuid>520892e2-05e7-5e1f-bae8-5de5dbc89d04</import.path.uuid> <!-- "US Extension Path" -->
 		<import.module.uuid>bf291637-8f18-38a3-8cc9-fc28927d68ad</import.module.uuid> <!-- US National Library of Medicine maintained module (core metadata concept) -->
