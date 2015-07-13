@@ -9,15 +9,15 @@
 	<groupId>gov.va.oia.terminology.converters</groupId>
 	<artifactId>us-extension-econcept</artifactId>
 	<!-- this should be set to ${sourceData.version}-loader-[version] but that doesn't appease the maven gods that know best.... -->
-	<version>20140901-loader-1.2-SNAPSHOT</version>
+	<version>20150301-loader-1.2-SNAPSHOT</version>
 	
 	<packaging>pom</packaging>
 	<name>us-extension-econcept</name>
 
 	<properties>
-		<sourceData.version>20140901</sourceData.version>
-		<org.ihtsdo.wb-toolkit.version>2.32-trek-no-jini-va-1.26</org.ihtsdo.wb-toolkit.version>
-		<data.relativeInputDir>/RF2Release/Full/</data.relativeInputDir>
+		<sourceData.version>20150301</sourceData.version>
+		<org.ihtsdo.wb-toolkit.version>2.32-trek-no-jini-va-1.30-SNAPSHOT</org.ihtsdo.wb-toolkit.version>
+		<data.relativeInputDir>/SnomedCT_RF2Release_US1000124_20150301/Full/</data.relativeInputDir>
 		<import.path.uuid>520892e2-05e7-5e1f-bae8-5de5dbc89d04</import.path.uuid> <!-- "US Extension Path" -->
 		<import.module.uuid>bf291637-8f18-38a3-8cc9-fc28927d68ad</import.module.uuid> <!-- US National Library of Medicine maintained module (core metadata concept) -->
 		<core.path.uuid>8c230474-9f11-30ce-9cad-185a96fd03a2</core.path.uuid> <!-- SNOMED Core Path -->
@@ -49,7 +49,7 @@
 									<groupId>gov.va.oia.terminology.source.us-extension</groupId>
 									<artifactId>us-extension-src-data</artifactId>
 									<version>${sourceData.version}</version>
-									<type>zip</type>
+									<type>rf2.zip</type>
 								</artifactItem>
 							</artifactItems>
 							<outputDirectory>${project.build.directory}/generated-resources/data</outputDirectory>
@@ -71,7 +71,7 @@
 						</goals>
 						<configuration>
 							<targetSubDir>generated-resources/data</targetSubDir>
-							<effectiveDate>2014-01-31 00:00:00</effectiveDate>
+							<effectiveDate>2015-01-31 00:00:00</effectiveDate>
 							<rf2Dirs>
 								<rf2Dir>
 									<directoryName>${data.relativeInputDir}/Terminology</directoryName>
